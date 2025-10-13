@@ -68,6 +68,9 @@
 	  <MauiXaml Update="APropos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\vBatterie.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\vEcran.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

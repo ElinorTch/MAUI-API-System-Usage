@@ -26,10 +26,6 @@
             Title="Géo"  
             ContentTemplate="{DataTemplate views:vGeolocalisation}"  
         />
-        <ShellContent  
-            Title="Ecran"  
-            ContentTemplate="{DataTemplate views:vEcran}"  
-        />
     </TabBar>
 
 </Shell>

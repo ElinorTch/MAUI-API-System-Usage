@@ -6,7 +6,9 @@ public partial class vPhone : ContentPage
 	{
 		InitializeComponent();
         phone_Info();
-	}
+        Routing.RegisterRoute($"{nameof(vEcran)}", typeof(vEcran));
+        Routing.RegisterRoute($"{nameof(vBatterie)}", typeof(vBatterie));
+    }
 	private void phone_Info()
 	{
         System.Text.StringBuilder sb = new System.Text.StringBuilder();
@@ -22,5 +24,15 @@ public partial class vPhone : ContentPage
     private string Get_Idiom()
     {
         return "";
+    }
+
+    private async void Ecran_Clicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync(nameof(vEcran));
+    }
+
+    private async void Alimentation_clicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync(nameof(vBatterie));
     }
 }

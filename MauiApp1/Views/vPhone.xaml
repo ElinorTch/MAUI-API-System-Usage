@@ -10,9 +10,16 @@
             FontSize="22"
             HorizontalOptions="Center" />
         <Label 
+    Text="Info Téléphone"
             x:Name="lbPhoneInfo"
-            HeightRequest="240" 
-            FontSize="22" 
-            />
+    VerticalOptions="Center"
+    FontSize="22"
+    HorizontalOptions="Center" />
+
     </VerticalStackLayout>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Ecran" Clicked="Ecran_Clicked" IconImageSource="{FontImage Glyph='E', Color=White, Size=22}" />
+        <ToolbarItem Text="Batterie" Clicked="Alimentation_clicked" IconImageSource="{FontImage Glyph='B', Color=White, Size=22}" />
+    </ContentPage.ToolbarItems>
+
 </ContentPage>
