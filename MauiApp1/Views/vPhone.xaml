@@ -10,7 +10,6 @@
             FontSize="22"
             HorizontalOptions="Center" />
         <Label 
-            
             x:Name="lbPhoneInfo"
             HeightRequest="240" 
             FontSize="22" 

@@ -68,6 +68,9 @@
 	  <MauiXaml Update="APropos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\vEcran.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\vGeolocalisation.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -78,6 +81,12 @@
 
 	<ItemGroup>
 	  <Folder Include="Models\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\vEcran.xaml.cs">
+	    <DependentUpon>vEcran.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 </Project>

@@ -5,6 +5,7 @@ public partial class vPhone : ContentPage
 	public vPhone()
 	{
 		InitializeComponent();
+        phone_Info();
 	}
 	private void phone_Info()
 	{
@@ -21,6 +22,5 @@ public partial class vPhone : ContentPage
     private string Get_Idiom()
     {
         return "";
-
     }
 }
