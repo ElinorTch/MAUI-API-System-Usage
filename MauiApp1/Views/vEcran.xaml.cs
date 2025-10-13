@@ -18,9 +18,9 @@ public partial class vEcran : ContentPage
 	{
 		lb_Info.Text = "Resolution : " + DeviceDisplay.Current.MainDisplayInfo.Width.ToString() + " ";
 		lb_Info.Text += DeviceDisplay.Current.MainDisplayInfo.Height.ToString() + Environment.NewLine;
-		lb_Info.Text += "Densite : " + DeviceDisplay.Current.MainDisplayInfo.Density.ToString();
-		lb_Info.Text += "Orientation : " + DeviceDisplay.Current.MainDisplayInfo.Orientation.ToString();
-		lb_Info.Text += "Rotation : " + DeviceDisplay.Current.MainDisplayInfo.Rotation.ToString();
+		lb_Info.Text += "Densite : " + DeviceDisplay.Current.MainDisplayInfo.Density.ToString() + Environment.NewLine;
+		lb_Info.Text += "Orientation : " + DeviceDisplay.Current.MainDisplayInfo.Orientation.ToString() + Environment.NewLine;
+		lb_Info.Text += "Rotation : " + DeviceDisplay.Current.MainDisplayInfo.Rotation.ToString() + Environment.NewLine;
         lb_Info.Text += "Vitesse de raffraichissement : " + DeviceDisplay.Current.MainDisplayInfo.RefreshRate.ToString("0.00");
 	}
 }

@@ -12,7 +12,6 @@
             HorizontalOptions="Center" />
         <Label 
             FontSize="22"
-            TextColor="{StaticResource Primary}"
             x:Name="lb_Info"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
