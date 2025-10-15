@@ -53,7 +53,7 @@ public partial class vBatterie : ContentPage
                 break;
             case BatteryState.Unknown:
                 stext = "INconnu";
-                break
+                break;
         }
         lb_Alim.Text = "Alimentation: " + stext;
     }

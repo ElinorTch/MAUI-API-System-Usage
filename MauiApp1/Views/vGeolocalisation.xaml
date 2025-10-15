@@ -4,6 +4,8 @@
              x:Class="MauiApp1.Views.vGeolocalisation"
              Title="vGeolocalisation">
     <VerticalStackLayout>
+        <Button Text="Geolocation" x:Name="bt_geolocation" Clicked="Geolocalisation_click"></Button>
+        <Button Text="Annulation" x:Name="bt_cancel" Clicked="Annulation_click"></Button>
         <Label 
             x:Name="lb_longitude"
             VerticalOptions="Center" 
